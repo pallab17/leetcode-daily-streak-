@@ -1,1 +1,6 @@
+
 question number 452. Minimum Number of Arrows to Burst Balloons
+
+Approach -
+
+1. Sort korbo balloon r dimension ta i.e. pair ta jate we can sort the dimensions list of balloons
