@@ -4,3 +4,9 @@ question number 452. Minimum Number of Arrows to Burst Balloons
 Approach -
 
 1. Sort korbo balloon r dimension ta i.e. pair ta jate we can sort the dimensions list of balloons
+
+2.After sorting amra bujhte parbo jodi 2 to por por pair overlap kore tahole amader ekta arrow tei balloon phatano hoye jabe aar amra tahole just i++ kore next pair r sathe compare korbo 
+
+3.  aar jodi 2 to pair overlap na kore then ekta extra arrow lagbe balloon phatano r jonno
+
+4.
