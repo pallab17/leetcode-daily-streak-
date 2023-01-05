@@ -18,7 +18,16 @@ Approach -
 7. Space complexity -O(1)
 
 8. C++ code follows-
+      // Compare function use korchi 
 
+   
+     bool comp(vector<int> &a,vector<int> &b)
+
+{   
+
+ return a[1]<b[1];   
+
+ }
 
 
 class Solution {public:    int findMinArrowShots(vector<vector<int>>& points) {                if(points.size()==0) return 0;                        
