@@ -12,3 +12,5 @@ Approach -
 4.Aar amra current je pointer take use korchi for traversing the list of pairs setake increase kore debo i.e. i++
 
 5. Step 3 aar 4 tai amra code e use korbo 
+
+6.Time complexity - O(nlogn)
