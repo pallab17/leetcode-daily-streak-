@@ -31,7 +31,7 @@ public:
         return NULL;
 
 
-        ListNode* p = head;
+        ListNode* p = head;   // aar ekta pointer nicchi p head/start e point korche
 
         while(p!=slow){
             p=p->next;
