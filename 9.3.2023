@@ -27,7 +27,7 @@ public:
             
         }
 
-        if(slow!=fast)
+        if(slow!=fast)   // list e cycle na thakle return null
         return NULL;
 
 
