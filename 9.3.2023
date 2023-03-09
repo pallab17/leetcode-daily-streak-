@@ -14,7 +14,7 @@ public:
     ListNode *detectCycle(ListNode *head) {
         if(head==NULL || (head->next==NULL)) // ekta element list e thakle return null
             return NULL;
-        
+        // using slow and fast pointer
         ListNode* slow = head;
          ListNode* fast = head;
         
