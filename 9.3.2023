@@ -33,7 +33,7 @@ public:
 
         ListNode* p = head;   // aar ekta pointer nicchi p head/start e point korche
 
-        while(p!=slow){
+        while(p!=slow){    // eibar jei position e p aar s meet korbe seta cycle r starting position
             p=p->next;
             slow=slow->next;
         }
