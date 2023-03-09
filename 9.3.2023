@@ -12,7 +12,7 @@ i.e. return the starting position of the cycle present in the linkedlist
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
-        if(head==NULL || (head->next==NULL))
+        if(head==NULL || (head->next==NULL)) // ekta element list e thakle return null
             return NULL;
         
         ListNode* slow = head;
