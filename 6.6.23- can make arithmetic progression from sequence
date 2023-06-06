@@ -1,1 +1,25 @@
 1502. Can Make Arithmetic Progression From Sequence
+
+class Solution {
+public:
+    bool canMakeArithmeticProgression(vector<int>& arr) {
+
+//      sorting the given array
+        sort(begin(arr),end(arr));
+
+//    taking hold of no of elements in the array
+        int n = arr.size();
+
+//      calculating the common difference btw the first two elements
+        int d = arr[1]-arr[0];
+        
+//         now checking whether the common difference between n and n-1 element is same as the common difference  btw the first 2 elements
+        for(int i=2;i<n;i++){
+            if(arr[i]-arr[i-1] != d)
+                return false;
+        }
+        
+        return true;
+        
+    }
+};
