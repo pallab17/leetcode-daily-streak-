@@ -1,5 +1,8 @@
 1502. Can Make Arithmetic Progression From Sequence
 
+easy tag
+
+
 class Solution {
 public:
     bool canMakeArithmeticProgression(vector<int>& arr) {
