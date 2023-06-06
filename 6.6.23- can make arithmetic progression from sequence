@@ -30,4 +30,5 @@ public:
 };
 
 2. approach 2
+// time complexity - 0(n) space complexity - 0(n) 
 
